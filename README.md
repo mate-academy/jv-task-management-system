@@ -1,6 +1,6 @@
 # Task Management System
 
-Manage tasks and projects effectively through a web-based application. This system enables task creation, assignment, progress tracking, and completion. To enhance user experience, users can add attachments directly from Dropbox, making the process seamless.
+Manage tasks and projects effectively through a web-based application. This system enables task creation, assignment, progress tracking, and completion.
 
 
 ## If you work in a team
@@ -17,7 +17,7 @@ Manage tasks and projects effectively through a web-based application. This syst
 ## Instructions
 
 1. Create a new Spring Boot project
-2. Create a new GitHub repo with `car-sharing-app` name (or any other you like)
+2. Create a new GitHub repo with `task-management-app` name (or any other you like)
     - if you work in a team the repo MUST belong to the organization;
     - configure `Branch protection rules` for the organization repository using the following tutorial:
 
@@ -31,7 +31,7 @@ Manage tasks and projects effectively through a web-based application. This syst
       STEP #2
       ![Add your teammate](./description/second-step-for-branch-protection-rules.png)
 
-      Add the rule with only next settings
+      Add the rule with only the next settings
       STEP #3
       ![Add your teammate](./description/third-step-for-branch-protection-rules.png)
 
@@ -41,24 +41,24 @@ Manage tasks and projects effectively through a web-based application. This syst
 
 3. Connect a repo to a folder with your Spring Boot project (see the instructions on GitHub);
 4. Setup checkstyle plugin in your project
-5. Setup CI process to run `mvn clean verify` command by adding a `.github/workflows/ci.yml` file
+5. Setup CI process to run the `mvn clean verify` command by adding a `.github/workflows/ci.yml` file
 6. The `master` (or `main`) branch is a base for your feature PullRequests.
-7. PRs should be merged there after review
+7. PRs should be merged thereafter review
 
 ## How to develop a feature
 
 1. `Pull` the latest `master`.
 2. Create a `your-feature-name` branch and `push` it to GitHub.
 3. Open a Pull Request (`PR`) from your branch to the `master` (`main`).
-4. Discuss branches and commits naming practices. Your branch, PR, and commit names should be consistent across the
+4. Discuss branches and commit naming practices. Your branch, PR, and commit names should be consistent across the
    team. Example of PR names:
     - [DB]: prefix for liquibase scripts
-    - [API] for scripts with api changes
-5. Do not use forks, work in single repo altogether!
-6. Write your code, save it and push it to GitHub.
+    - [API] for scripts with API changes
+5. Do not use forks, work in a single repo altogether!
+6. Write your code, save it, and push it to GitHub.
 7. Ask your teammate to review and approve if everything is OK.
 8. If some fixes are required discuss the comments and repeat steps 5-7.
-9. Mentors will review your codebase everyday, but not PRs.
+9. Mentors will review your codebase every day, but not PRs.
 
 ## Coding
 
@@ -66,7 +66,7 @@ Manage tasks and projects effectively through a web-based application. This syst
 - Separate PR to the `main` branch for each task is required.
 - 60%+ of the custom code should be covered with tests.
 - Make sure to name your commits & branches meaningfully.
-- Do not use forks, work in single repo altogether (if you work in a team).
+- Do not use forks, work in a single repo altogether (if you work in a team).
 
 ## App
 
